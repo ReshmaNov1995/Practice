@@ -42,7 +42,7 @@ a = 20
 
 # Example 7 Multi Conditions using elif
 # weekno=7
-a = int(input("Enter weekno:")) 
+a = int(input("Enter weekno:"))
 
 if a==1:
     print("Sunday")
@@ -64,3 +64,6 @@ elif a == 6:
 
 elif a == 7:
     print("Saturday")
+
+else:
+    print("Invalid Weekno")
