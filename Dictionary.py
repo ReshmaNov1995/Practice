@@ -65,5 +65,21 @@ print(dict1)
 del dict1[4]
 print(dict1)
 
-del dict1
+# del dict1
 # print(dict1)
+
+#  Example 9: Clear items in the dictionary
+#
+# dict2.clear()
+# print(dict2)
+
+# Example 10: Copy dictionary
+
+# Method - 1: without using copy
+# dict2 = dict1
+print(dict2)
+print(dict1)
+
+# Method - 2:  copy
+dict1 = dict2.copy()
+print(dict1)
