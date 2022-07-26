@@ -40,6 +40,8 @@ a = 20
 # print("hi","python") if a>=10 else print("hello","java")
 {print("hi"),print("python")} if a>=10 else {print("hello"),print("java")}
 
+
+# elif
 # Example 7 Multi Conditions using elif
 # weekno=7
 a = int(input("Enter weekno:"))
