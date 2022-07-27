@@ -41,7 +41,7 @@ print(str[2:5])
 print(str[:7]) # Default starting index is 0
 print(str[2:]) # It ll print all the values followed by starting index
 print(str[1:-1]) # End index ll neglect from the last value for negative integers
-
+# print(str[-1:5])
 # Example 5: ord() and chr()
 
 # ord() for character to ASCII value
