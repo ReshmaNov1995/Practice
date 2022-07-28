@@ -126,3 +126,4 @@ print("The reversed string value is "+rev_str)
 p = "Python Automation"
 rev_str = p[::-1] # p[0:17:-1]
 print(rev_str)
+
