@@ -41,7 +41,7 @@ print(str[2:5])
 print(str[:7]) # Default starting index is 0
 print(str[2:]) # It ll print all the values followed by starting index
 print(str[1:-1]) # End index ll neglect from the last value for negative integers
-# print(str[-1:5])
+# print(str[-1:5]) # Negative value couldn't pass in start index
 # Example 5: ord() and chr()
 
 # ord() for character to ASCII value
@@ -114,13 +114,13 @@ print(n.replace("an", "a")) # replace existing by updated
 
 # Example 12: Reverse String
 # Method - 1 using for loop
-o = "Hello world"
+o = "Hello"
 rev_str = ""
 
-for i in o: # It ll store the string value from last. Lyk -> dlrow...eh
-    rev_str = i+rev_str # d+empty = d, l+d = ?
+for i in o: # H
+    rev_str = i+rev_str # H+ ->H; e+H->eH; l+eH->leH; l+leH->lleH; o+lleH->olleH
 
-print("The reversed string value is "+rev_str)
+print("The reversed string value is "+rev_str) #olleH
 
 # Method - 2 using slicing
 p = "Python Automation"
