@@ -69,7 +69,7 @@ print(dict1)
 # print(dict1)
 
 #  Example 9: Clear items in the dictionary
-#
+
 # dict2.clear()
 # print(dict2)
 
