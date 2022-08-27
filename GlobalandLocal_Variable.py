@@ -35,3 +35,4 @@ def fun1():
 
 fun1()
 print(ab) # 100
+
