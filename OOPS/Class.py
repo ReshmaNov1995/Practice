@@ -29,21 +29,29 @@ mc2.methodcase()
 mc2.methodcase1()
 mc2.methodcase2(25)
 
-# Static Method & Non-Static(Instance) Method
+# Static Method, Class Method & Instance(Non-Static) Method
 # Example 2:
 
 class Static:
     def imethod(self):
         print("Am Instance Method")
+    @classmethod
+    def kmethod(cls):
+        print("Am Class Method")
     @staticmethod
-    def smethod(self):
-        print()
+    def smethod():
+        print("Am Static Method")
 
+# Invoke methods by class name
+Static.smethod()
+Static.kmethod()
 
-Static.smethod(1)
-
+# Invoke methods by Object
 s = Static()
-s.smethod(30)
+s.imethod()
+Static.imethod(s)  # Instance method can also invoke like this
+s.kmethod()
+s.smethod()
 
 # Example 3:
 # Class Variable
@@ -85,3 +93,16 @@ class VariableClass1:
 
 vc = VariableClass1()
 vc.method()
+
+# Example 6:
+# Constructor
+
+class ConstClass:
+    def __init__(self):
+        print("Am a Constructor")
+
+    def method(self):
+        print("Am a Method")
+
+cc = ConstClass() # Here constructor ll be called while the object is created
+
