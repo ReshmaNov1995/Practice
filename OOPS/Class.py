@@ -105,4 +105,4 @@ class ConstClass:
         print("Am a Method")
 
 cc = ConstClass() # Here constructor ll be called while the object is created
-
+cc.method()
