@@ -145,7 +145,7 @@
 class Employee:
     # eid, name, sal = "", "", ""
 
-    def __init__(self, eid, name, sal):
+    def __init__(self, eid, sal, name):
         self.eid = eid # In this case line 125 is not required
         self.name = name
         self.sal = sal
@@ -153,9 +153,13 @@ class Employee:
     def __str__(self):
         return self.name
 
-    def __float__(self):
-        return self.eid, self.sal
+    def __float__(self): # Passing list of values throws error
+        return self.eid
 
-emp1 = Employee(1.25,"Reshma", 860.000290)
-print(emp1)
+    def __int__(self):
+        return self.sal
+
+emp1 = Employee(1.21, 2546200, "Reshma")
+print(str(emp1))
 print(float(emp1))
+print(int(emp1))
