@@ -143,6 +143,8 @@
 # bobj.m1(1000, 2000)
 
 # Example 8:
+import self as self
+
 
 class Bank:
     def rateOfInterest(self):
@@ -151,7 +153,8 @@ class Bank:
 class XBank(Bank):
     def rateOfInterest(self):
         return 10
-    # print(super().rateOfInterest())
+
+print(super(XBank).rateOfInterest)
 
 class YBank(Bank):
     def rateOfInterest(self):
@@ -175,4 +178,4 @@ print(xobj.rateOfInterest())
 # print(bobj.name)
 # bobj.test()
 
-# ---DOUBT---
+# -----DOUBT-----
