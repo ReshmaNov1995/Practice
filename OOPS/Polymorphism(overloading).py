@@ -23,4 +23,31 @@ a.m1()
 a.m1(10,20)
 a.m1(10,20,30)
 
-# -----DOUBT-----
+
+# Example 3 - Method overloading is not possible here like java. The latest method only considered. First method is not supposed to be accessed.
+
+class A:
+    def m1(self, a):
+        print("A")
+
+    def m1(self, a, b):
+        print("B")
+
+a = A()
+a.m1(1,2)
+a.m1(1) #this 'll throws the error. Bcoz it is expecting for 2 arguments.
+
+# For java like Method overloading concept, this below approach can be followed
+
+from multipledispatch import dispatch
+
+@dispatch(int, int) # datatype declaration
+def name(a,b):
+    print("this is first method")
+
+@dispatch(str,str)
+def name(a,b):
+    print("this is second method")
+
+name(1,2)
+name("Reshma", "Roja")
