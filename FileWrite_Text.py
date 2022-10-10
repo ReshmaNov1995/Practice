@@ -10,7 +10,7 @@ textfile.write("Hey!!!\n")
 textfile.writelines((line1, line2))
 
 textfile.flush()
-#
+
 # # File Read
 
 # textfile = open("D:\sample\TextFile.txt", "r")
