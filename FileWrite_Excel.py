@@ -12,4 +12,8 @@ print(maxrow)
 
 # Maximum Column
 maxcolumn = open_worksheet.max_column
-# print(maxcolumn)
+print(maxcolumn)
+
+#Retriving value of the cell in the worksheet
+a = open_worksheet.cell(1,2).value
+print(a)
