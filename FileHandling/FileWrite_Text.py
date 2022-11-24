@@ -11,12 +11,12 @@ textfile.writelines((line1, line2))
 
 textfile.flush()
 
-# # File Read
+# File Read
 
-# textfile = open("D:\sample\TextFile.txt", "r")
-#
-# # print(textfile.read()) # It 'll read the entire file
-# print(textfile.readline()) # It 'll read only line of the file
+textfile = open("D:\sample\TextFile.txt", "r")
+
+print(textfile.read()) # It 'll read the entire file
+print(textfile.readline()) # It 'll read only line of the file
 
 # File Append ---> It is used to write at the End of the File.
 textfile = open("D:\sample\TextFile.txt", "a")

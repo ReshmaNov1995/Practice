@@ -1,9 +1,9 @@
-# # Approach - 1
-#
-# import Calculator
-#
-# Calculator.add(10,20)
-# Calculator.mul(10, 10)
+# Approach - 1
+
+import Calculator
+
+Calculator.add(10,20)
+Calculator.mul(10, 10)
 
 # Approach - 2:
 

@@ -16,11 +16,13 @@ list1 = [545,"fgf",65,"dfgdt",99]
 print(list1[0], list1[3], list1[4], list1[-3])
 
 # Example 3: Range of Index
-# greater and lesser combination, equal values 'll give empty list1.
+# greater and lesser combination with same negative/positive integers, equal values 'll give empty list.
 list1 = ["Apple", "Orange", "Banana", "PineApple", "Guava", "Jackfruit", "Grapes"]
 
 print(list1[1:5])
-print(list1[-1:-3])
+print(list1[-1:-5])
+print(list1[1:1])
+print(list1[5:1])
 
 # Example 4: Change Item Value
 

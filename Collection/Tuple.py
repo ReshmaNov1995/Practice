@@ -12,11 +12,12 @@ print(tuple1[4])
 print(tuple1[-2]) # Negative index
 
 # Example 3: Range of Index
-# greater and lesser combination, equal values 'll give empty list1.
+# greater and lesser combination with same negative/positive integers, equal values 'll give empty tuple.
 tuple1 = ("Apple", "Orange", "Banana", "PineApple", "Guava", "Jackfruit", "Grapes")
 
 print(tuple1[1:5])
 print(tuple1[-3:-1])
+print(tuple1[3:1])
 
 # Example 4: Change Item Value
 # By default tuple does not allow to change value bcoz it is immutable. But, there is a workaround.

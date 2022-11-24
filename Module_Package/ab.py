@@ -1,12 +1,12 @@
-# # Approach - 1:
-# import a
-# import b
-#
-# obj1 = a.Animal()
-# obj1.display()
-#
-# obj2 = b.Bird()
-# obj2.display()
+# Approach - 1:
+import a
+import b
+
+obj1 = a.Animal()
+obj1.display()
+
+obj2 = b.Bird()
+obj2.display()
 
 # Approach - 2:
 

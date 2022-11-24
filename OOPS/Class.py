@@ -49,7 +49,7 @@ Static.kmethod()
 # Invoke methods by Object
 s = Static()
 s.imethod()
-Static.imethod(s)  # Instance method can also invoke like this
+# Static.imethod(s)  # Instance method can also invoke like this
 s.kmethod()
 s.smethod()
 
@@ -141,25 +141,25 @@ emp2.method()
 emp3 = Employee(3, "Rekha", 9856000)
 emp3.method()
 
-# Example 9:
-class Employee:
-    # eid, name, sal = "", "", ""
-
-    def __init__(self, eid, sal, name):
-        self.eid = eid # In this case line 125 is not required
-        self.name = name
-        self.sal = sal
-
-    def __str__(self):
-        return self.name
-
-    def __float__(self): # Passing list of values throws error
-        return self.eid
-
-    def __int__(self):
-        return self.sal
-
-emp1 = Employee(1.21, 2546200, "Reshma")
-print(str(emp1))
-print(float(emp1))
-print(int(emp1))
+# # Example 9:
+# class Employee:
+#     # eid, name, sal = "", "", ""
+#
+#     def __init__(self, eid, sal, name):
+#         self.eid = eid
+#         self.name = name
+#         self.sal = sal
+#
+#     def __str__(self):
+#         return self.name
+#
+#     def __float__(self): # Passing list of values throws error
+#         return self.eid
+#
+#     def __int__(self):
+#         return self.sal
+#
+# emp1 = Employee(1.21, 2546200, "Reshma")
+# print(str(emp1))
+# print(float(emp1))
+# print(int(emp1))

@@ -41,7 +41,10 @@ print(str[2:5])
 print(str[:7]) # Default starting index is 0
 print(str[2:]) # It ll print all the values followed by starting index
 print(str[1:-1]) # End index ll neglect from the last value for negative integers
+print(str[1:-3])
 # print(str[-1:5]) # Negative value couldn't pass in start index
+
+
 # Example 5: ord() and chr()
 
 # ord() for character to ASCII value
@@ -103,7 +106,7 @@ print(m.count("a")) # returns no.of.occurrence of the SubString.
 
 # Example 11: Converting Strings
 
-n = "Am an AGARAM Employee"
+n = "am an AGARAM Employee. my employee id is ate188. and am a Test Engineer."
 
 print(n.capitalize()) # returns capital letter of a sentence
 print(n.title()) # returns capital letter of every word

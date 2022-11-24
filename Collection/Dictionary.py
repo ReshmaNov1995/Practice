@@ -1,21 +1,21 @@
-# Example 1: Creating dictionary
-
+# # Example 1: Creating dictionary
+#
 dict1 = {1:"Reshma", 2:"Roja", 3:"Rekha", 4:"Ranjith"}
-print(dict1)
-
-# Example 2: Accessing Item from dictionary
-
-# Method - 1:
+# print(dict1)
+#
+# # Example 2: Accessing Item from dictionary
+#
+# # Method - 1:
 dict2 = {"Name": "Roja", "Year": 1995, "Month": "September", "Passing": 2017}
-print(dict2["Month"])
-
-# Method - 2: using get()
-print(dict1.get(2))
-
-# Example 3: Change values in dictionary
-
-dict1[3] = "Reeta"
-print(dict1)
+# print(dict2["Month"])
+#
+# # Method - 2: using get()
+# print(dict1.get(2))
+#
+# # Example 3: Change values in dictionary
+#
+# dict1[3] = "Reeta"
+# print(dict1)
 
 # Example - 4: Reading items from dictionary using loop
 

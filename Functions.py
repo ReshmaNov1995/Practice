@@ -13,6 +13,7 @@ function1()
 
 def function2(name):
     print("Welcome to Automation "+name)
+
 function2("Reshma")
 
 # Example 3: Function with Multiple Parameter
@@ -32,6 +33,7 @@ print(function4()) # It 'll return none
 # Method - 2:
 def function4a():
     i = 20
+    return
 print(function4a())
 
 # Example 5:

@@ -1,16 +1,16 @@
-# # Example 1:
-#
-# class A:
-#     def m1(self, name = None):
-#         if name != None:
-#             print("Hello " + name)
-#
-#         else:
-#             print("Hello")
-# a = A()
-# # Same method is used with diff arguments
-# a.m1()
-# a.m1("Reshma")
+# Example 1:
+
+class A:
+    def m1(self, name = None):
+        if name != None:
+            print("Hello " + name)
+
+        else:
+            print("Hello")
+a = A()
+# Same method is used with diff arguments
+a.m1()
+a.m1("Reshma")
 
 # Example 2
 
@@ -35,7 +35,7 @@ class A:
 
 a = A()
 a.m1(1,2)
-a.m1(1) #this 'll throws the error. Bcoz it is expecting for 2 arguments.
+# a.m1(1) #this 'll throws the error. Bcoz it is expecting for 2 arguments.
 
 # For java like Method overloading concept, this below approach can be followed
 
