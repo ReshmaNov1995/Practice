@@ -33,8 +33,8 @@ function2(name="Reshma", place="Chennai")
 def function3(a,b,c):
     print(a,b,c)
 
-#function3(11, b=20, 33)  #Syntax Error. This is wrong, As positional argument must appear before any keyword argument
-#function3(10, 20, b = 30) #Logical Error. Got Multiple values for argument b
+# function3(11, b=20, 33)  #Syntax Error. This is wrong, As positional argument must appear before any keyword argument
+# function3(10, 20, b = 30) #Logical Error. Got Multiple values for argument b
 function3(11, b=20, c=33)
 
 

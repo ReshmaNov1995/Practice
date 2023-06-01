@@ -1,28 +1,29 @@
-# # Example - 1:
-#
-# a = 20
-#
-# def fun():
-#     print(a)
-#
-#     b = 30
-#     print(b)
-#
-# fun()
-#
-# # print(b) # It throws error bcoz it's a local variable.
-#
-# # Example - 2:
-#
-# # Both Global and Local variable has same name. Inside the function Local variable 'll be considered.
-#
-# ab = 50
-#
-# def fun1():
-#     ab = 100
-#     print(ab)
-#
-# fun1()
+# Example - 1:
+
+a = 20
+
+def fun():
+    print(a)
+
+    b = 30
+    print(b)
+
+fun()
+
+# print(b) # It throws error bcoz it's a local variable.
+
+# Example - 2:
+
+# Both Global and Local variable has same name. Inside the function Local variable 'll be considered.
+
+ab = 50
+
+def fun1():
+    ab = 100
+    print(ab)
+
+fun1()
+print(ab)
 
 # Example - 3:
 
@@ -48,5 +49,18 @@ def fun2():
     xy = 500
     print(xy)
 
-# fun2() # if the function is not called then body of the function will not be considered
+fun2() # if the function is not called then body of the function will not be considered
 print(xy)
+
+# Class Variable
+class A:
+    a = 10
+
+    def m1(self):
+        print(self.a)
+
+    def m2(self):
+        self.m1()
+
+aa = A()
+aa.m2()

@@ -145,7 +145,6 @@ bobj.m1(1000, 2000)
 # Example 8:
 import self as self
 
-
 class Bank:
     def rateOfInterest(self):
         return 0

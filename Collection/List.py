@@ -111,6 +111,11 @@ list6 = ["de", "dewd", "dee", "esf"]
 list5.extend(list6)
 print(list5)
 
+# Method - 4: The "join" in Python takes all the elements of an iterable and joins them into a single string.
+print(list6)
+print(''.join(list6)) # 2 lists can't be joined. String with a list can be joined. remove the spaces & join the data in the list. Numeric are not allowed.
+print('e'.join(list6))
+
 # Example - 12: Compare 2 lists
 
 if list5 == list6:

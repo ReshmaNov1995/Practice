@@ -30,11 +30,17 @@ def function4():
     return
 print(function4()) # It 'll return none
 
-# Method - 2:
 def function4a():
     i = 20
+    print(i)
     return
 print(function4a())
+
+# Method - 2: Function with parameter and no return value
+def function4a(a):
+    i = 20+a
+    return
+print(function4a(10))
 
 # Example 5:
 

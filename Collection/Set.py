@@ -28,7 +28,7 @@ print(set2)
 # Example - 5: Set length
 
 print(len(set2))
-
+#
 # Example - 6: Remove item from set
 # Both remove() and discard() ll perform same.
 # Only difference is, discard the non-existing value in the set won't throw error.
@@ -44,11 +44,8 @@ print(set2)
 # Example - 7: Clear the items in set
 
 set3 = {"fear", "afraid", "unease"}
-# set3.clear()
+set3.clear()
 print(set3)
-
-del set3
-# print(set3)
 
 # Example - 8: Join Set
 
@@ -61,3 +58,9 @@ print(set6)
 # Method - 2: update()
 set4.update(set5)
 print(set4)
+
+# Example - 9: Copy
+
+set50 = set4.copy()
+print(set4)
+print(set50)

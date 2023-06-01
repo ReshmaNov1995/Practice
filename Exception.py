@@ -1,19 +1,18 @@
 # Example - 1: Common Except
-
 from colorama import *
 
-# print("Hi Am Reshu")
-#
+print("Hi Am Reshu")
+
 # try:
-#         print(a)
+#       print(a)
 #
 # except Exception as e:
 #         # e is a name error. It can't be concatenated with String.
 #         b = str(e)
 #         print(Fore.RED,"Am a Exception "+b)
 #         print(Style.RESET_ALL)
-#
-# print("Hi Am Moorthy")
+
+print("Hi Am Moorthy")
 
 # Example - 2: Particular Except
 
@@ -32,7 +31,7 @@ print("Exception Handled")
 
 try:
         num1, num2 = 10, 0
-        result = num1/num2
+        result = num2/num1
         print(result)
 
 except ZeroDivisionError:
@@ -57,17 +56,15 @@ finally:
 
 def enterNum(num):
         if num==0:
-                raise ValueError("Only Integers should be allowed")
+                raise Exception("zero is not allowed")
+                # raise ValueError("ValueError has occurred")
         if num % 2 == 0:
                 print("Am a even")
         else:
                 print("Am a odd")
 
-p = 0
 
-try:
-        enterNum(p)
-except:
-        print("ValueError Exception occurred")
+p = 0
+enterNum(p)
 
 print("Program Completed")

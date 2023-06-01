@@ -23,31 +23,6 @@ open_worksheet = open_workbook["comparison"]
 a = open_worksheet.max_column
 # print(a)
 
-# Writing Data from DB to Excel as Columnwise
-row = 1
-column = 1
-
-for i in result:
-    n = str(i)
-    print(n)
-    open_worksheet.cell(row, column).value = n
-    column += 1
-    open_workbook.save(excel_path)
-    open_workbook.close()
-
-# Writing Data from DB to Excel as Rowwise
-column = 1
-row = 1
-
-for j in result:
-    m = str(j)
-    print(m)
-    open_worksheet.cell(row, column).value = m
-    row += 1
-    open_workbook.save(excel_path)
-    open_workbook.close()
-
-
 # Writing Data from DB as a table in Excel
 
 row = 1

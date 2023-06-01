@@ -45,9 +45,11 @@ from multipledispatch import dispatch
 def name(a,b):
     print("this is first method")
 
-@dispatch(str,str)
-def name(a,b):
+@dispatch(str,str,int)
+def name(a,b,c):
     print("this is second method")
 
 name(1,2)
-name("Reshma", "Roja")
+name("Reshma", "Roja", 6)
+
+

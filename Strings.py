@@ -33,7 +33,7 @@ print(i+" Python")
 # * String value multiple times
 print(i*7)
 
-# Example 4: Slicing [] - while slice it should start from, 1 for ending index and 0 for starting index.
+# # Example 4: Slicing [] - while slice it should start from, 0 for starting index and 1 for ending index.
 
 str = "Welcome to Automation"
 print(str[2:5])
@@ -102,7 +102,7 @@ print(m.endswith("hma")) # True/False
 print(m.startswith("Mo")) # True/False
 print(m.find("is")) # returns the position. if not found then it ll return -1.
 print(m.find("ised"))
-print(m.count("a")) # returns no.of.occurrence of the SubString.
+# print(m.count("a")) # returns no.of.occurrence of the SubString.
 
 # Example 11: Converting Strings
 

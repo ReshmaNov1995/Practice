@@ -1,21 +1,25 @@
-# # Example 1: Creating dictionary
-#
+# Example 1: Creating dictionary
+
 dict1 = {1:"Reshma", 2:"Roja", 3:"Rekha", 4:"Ranjith"}
-# print(dict1)
-#
-# # Example 2: Accessing Item from dictionary
-#
-# # Method - 1:
+print(dict1)
+
+# Empty dictionary
+dict = dict()
+print(dict)
+
+# Example 2: Accessing Item from dictionary
+
+# Method - 1:
 dict2 = {"Name": "Roja", "Year": 1995, "Month": "September", "Passing": 2017}
-# print(dict2["Month"])
-#
-# # Method - 2: using get()
-# print(dict1.get(2))
-#
-# # Example 3: Change values in dictionary
-#
-# dict1[3] = "Reeta"
-# print(dict1)
+print(dict2["Month"])
+
+# Method - 2: using get()
+print(dict1.get(2))
+
+# Example 3: Change values in dictionary
+
+dict1[3] = "Reeta"
+print(dict1)
 
 # Example - 4: Reading items from dictionary using loop
 
@@ -46,13 +50,16 @@ else:
 
 print(2 in dict1)
 
-# Example 6: Find number of items in dictionary
+# Example 6: Find the length of the dictionary
 
 print(len(dict2))
 
-# Example 7: Adding Items in dictionary
+# Example 7: Adding Items in dictionary. It 'will add atlast always.
 
 dict1[5] = "Rakul"
+print(dict1)
+
+dict1.update({6:"Ruth"})
 print(dict1)
 
 # Example 8: Remove Item from dictionary
@@ -70,8 +77,8 @@ print(dict1)
 
 #  Example 9: Clear items in the dictionary
 
-# dict2.clear()
-# print(dict2)
+dict2.clear()
+print(dict2)
 
 # Example 10: Copy dictionary
 

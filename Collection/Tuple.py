@@ -18,6 +18,7 @@ tuple1 = ("Apple", "Orange", "Banana", "PineApple", "Guava", "Jackfruit", "Grape
 print(tuple1[1:5])
 print(tuple1[-3:-1])
 print(tuple1[3:1])
+print(tuple1[2:2])
 
 # Example 4: Change Item Value
 # By default tuple does not allow to change value bcoz it is immutable. But, there is a workaround.
@@ -68,12 +69,13 @@ tuple3 = tuple1
 print(tuple1)
 print(tuple3)
 
-# Example - 10: Removing item from tuple - Impossible bcoz tuple is immutable
 
+# Example - 10: Removing item from tuple - Impossible bcoz tuple is immutable
+#
 # del keyword
 # del tuple1
 
-# Example - 11: Joinning tuple
+# Example - 11: Joining tuple
 
 # Method - 1: using + operator
 tuple1 = ["ab", "bc", "ca", "ac"]
