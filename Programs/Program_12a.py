@@ -26,7 +26,7 @@ for i in range(len(list3)):
 
         dict[list3[i]] = dict[list3[i]] + 1
 
-print(dict.items())
+print(dict)
 # print(dict[1])
 
 

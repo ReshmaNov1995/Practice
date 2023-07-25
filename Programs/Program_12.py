@@ -18,8 +18,7 @@ def anagram(A):
         dict = {}
         for i in range(len(A)):
             word = ' '.join(sorted(A[i])) # Sort in alphabetical order
-            # word = sorted(A[i])
-            # print(word)
+
             if word not in dict:
                 dict[word] = [i+1] # dict[act] = [0+1] = [1]value, [2]value
             else: # [1,4].append(4+1) = [1,4,5]
