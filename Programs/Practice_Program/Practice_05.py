@@ -13,6 +13,7 @@ Output:
 def pair_sum(arr, sum):
 
     arr1 = sorted(arr)
+    # print(arr1)
     size = len(arr1)
 
     for i in range(size):

@@ -8,7 +8,7 @@ Output:
 Hello:2, Reshma:1, and:1, Roja:1
 """
 
-def frequencyofword(string):
+def frequency_word(string):
     str = string.split()
 
     size = len(str)
@@ -24,4 +24,4 @@ def frequencyofword(string):
     print(dict)
 
 string = "Hello Reshma and Hello Roja"
-frequencyofword(string)
+frequency_word(string)

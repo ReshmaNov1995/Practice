@@ -19,5 +19,5 @@ def missing_num(list1):
             break
 
 
-list1 = [2,7,5,4,1,6]
+list1 = [1,2,7,5,4,3,6,9]
 missing_num(list1)
