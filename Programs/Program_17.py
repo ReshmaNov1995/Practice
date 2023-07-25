@@ -16,3 +16,16 @@ lis1 = [10, 20, 40, 50, 80]
 list2 = [10, 30, 50, 90, 100]
 
 common_Elements(lis1, list2)
+
+# # Same logic as program_1
+#
+# def method(list1, list2):
+#     set1 = set(list1)
+#     set2 = set(list2)
+#
+#     common = set1 & set2
+#     print(common)
+#
+# lis1 = [10, 20, 40, 50, 80]
+# list2 = [10, 30, 50, 90, 100]
+# method(lis1, list2)

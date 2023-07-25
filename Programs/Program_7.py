@@ -11,7 +11,7 @@ def max_diff_element(arr):
     diff = - 9999*999
 
     for i in range(size-1):
-        if (arr1[i+1]-arr1[i] > diff): # arr[1]-arr[0] > 9989001. 5-4 > 9989001.
+        if (arr1[i+1]-arr1[i] > diff): # arr[1]-arr[0] > -9989001. 5-4 > -9989001.
             diff = arr1[i+1]-arr1[i] # reassign the value of diff.
     return diff
 

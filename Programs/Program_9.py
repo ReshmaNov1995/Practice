@@ -1,7 +1,7 @@
 # Length of Last word
 
 def length_lastword(A):
-    arr = A.split(' ')
+    arr = A.split()
     size = len(arr)
 
     if size == 1: # If input has only 1 word

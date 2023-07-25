@@ -35,7 +35,7 @@ def twosum(arr, sum):
             left = left + 1
 
 arr = [5,7,4,3,9,8,19,21]
-sum = 17
+sum = 16
 twosum(arr, sum)
 
 # 3 4 5 7 8 9 19 21
