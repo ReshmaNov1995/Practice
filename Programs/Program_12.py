@@ -21,9 +21,12 @@ def anagram(A):
 
             if word not in dict:
                 dict[word] = [i+1] # dict[act] = [0+1] = [1]value, [2]value
+
             else: # [1,4].append(4+1) = [1,4,5]
                 dict[word].append(i+1) # dict[dog].append(2+1)
-        return dict
+                print(dict[word])
+
+        # return dict
         # act:1,4,5; dog:2,3;
 
 arr =  ["cat", "dog", "god", "act", "tac"]

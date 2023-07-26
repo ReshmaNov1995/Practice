@@ -12,3 +12,4 @@ def substring(str1, n): # n=5
 str1 = "TANUJ"
 n = len(str1)
 substring(str1, n)
+

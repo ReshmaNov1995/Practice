@@ -5,7 +5,7 @@ name = 'Reshma'
 size = len(name)
 list1 = list(name)
 for i in range(size):
-    name[i::]
+
     list1.pop(0)
     list1.append(name[i])
     print(''.join(list1))
