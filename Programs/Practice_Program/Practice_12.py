@@ -1,5 +1,6 @@
 """
 Anagram
+This will give the occurrence of word's indices in the array.
 
 Input:
 arr =  ["cat", "dog", "god", "act", "tac"]
@@ -8,28 +9,19 @@ Output:
 [act:3 dgo:2]
 """
 
-def anagram(list):
-    list2 = []
-
-    for i in list:
-        list2.append(sorted(i))
-
-    print("list2", list2)
-    list3 = []
-    for i in list2:
-        list3.append(''.join(i))
-    print(list3)
-
+def anagram(anag):
+    size = len(anag)
     dict = {}
 
-    for i in range(len(list3)):
-        if list3[i] not in dict:
-            dict[list3[i]] = 1
+    for i in range(size):
+        word = ''.join(sorted(anag[i])) # sort - ['a','c','t']['d','g','o']['d','g','o']['a','c','t',]['a','c','t']; join - act,dgo,dgo,act,act
+        # print(word)
+        if word not in dict:
+            dict[word] = [i] # [i] - list. Bcoz more than 1 value. And only list can append.
 
         else:
-            dict[list3[i]] = dict[list3[i]] + 1
-
+            dict[word].append(i)
     print(dict)
 
-arr =  ["cat", "dog", "god", "act", "tac"]
-anagram(arr)
+anag = ["cat", "dog", "god", "act", "tac"]
+anagram(anag)

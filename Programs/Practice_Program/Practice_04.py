@@ -8,16 +8,18 @@ Output:
 4
 """
 
-def missing_num(list1):
-    list2 = sorted(list1)
-    # print(list2)
-    size = len(list2)
-
-    for i in range(size):
-        if list2[i] != i+1: # 1!=0+1; 2!=1+1; 3!=2+1; 5!=3+1; 6!=4+1
-            print(i+1)
-            break
+# Method - 1: Summation Method
+# Summation n*(n+1)/2 - Sum(A)
+# 7*(8)/2 - 1+2+4+5+6+7
+# 28 - 25 = 3. 3 is a missing number.
 
 
-list1 = [1,2,7,5,4,3,6,9]
-missing_num(list1)
+def get_missing_summation(a):
+    n = a[-1]
+    total = n*(n+1)//2
+    sum1 = sum(a)
+    print(total-sum1)
+
+
+a = [3, 4, 5, 6, 7, 8, 9, 10, 12]
+get_missing_summation(a)

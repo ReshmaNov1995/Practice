@@ -16,6 +16,7 @@ Reshma
 def rotation(str):
     size = len(str)
     list1 = list(str)
+    # print(list1)
 
 
     for i in range(size):

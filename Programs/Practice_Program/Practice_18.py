@@ -14,10 +14,11 @@ def prime(num):
                 print(num, "is not a Prime")
                 break
 
-        else:
-            print(num, "is a Prime")
+            else:
+                print(num, "is a Prime")
+                break
     else:
         print(num, "is not a Prime")
 
-num = 10
+num = 47
 prime(num)

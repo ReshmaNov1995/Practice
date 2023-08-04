@@ -23,13 +23,10 @@ def non_repeating_character(str):
     # print(dict)
 
 
-    count = 0
-
     for i in range(size):
         if dict[str[i]] == 1:
-            print(str[i], count)
+            print(str[i], i)
 
-        count += 1
 
 str = "NETSETOSNETM"
 non_repeating_character(str)

@@ -11,7 +11,7 @@ Automation Python to Welcome
 def reverse_sentence(str):
     list1 = str.split()
     rev = list1[::-1]
-    print(rev)
+    # print(rev)
     print(" ".join(rev))
 
 

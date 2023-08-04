@@ -24,7 +24,7 @@ def anagram(A):
 
             else: # [1,4].append(4+1) = [1,4,5]
                 dict[word].append(i+1) # dict[dog].append(2+1)
-                print(dict[word])
+        print(dict)
 
         # return dict
         # act:1,4,5; dog:2,3;
