@@ -20,5 +20,5 @@ def prime(num):
     else:
         print(num, "is not a Prime")
 
-num = 47
+num = 10.5
 prime(num)

@@ -15,11 +15,11 @@ Output:
 #         if i.isdigit():
 #             print(i)
 #
-sentence = "Nancy is 90 years old. she wants 12.0232 toffees"
+sentence = "Nancy is 90 years old. she wants 12.084 toffees"
 # extract_num(sentence)
 
 import re
-list1 = []
+# list1 = []
 num = re.findall("\d*\.?\d+", sentence)
 print(num)
 
@@ -27,4 +27,4 @@ print(num)
 # d - digit
 # + -> 1 or more
 # * -> 0 or more
-# ? -> o or 1
+# ? -> o or 1 With or Without decimal
