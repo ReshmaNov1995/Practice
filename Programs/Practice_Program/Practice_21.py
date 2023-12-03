@@ -10,11 +10,13 @@ Output:
 
 # def extract_num(sentence):
 #     list1 = sentence.split()
+#     list2 = []
 #
 #     for i in list1:
 #         if i.isdigit():
-#             print(i)
-#
+#             list2.append(i)
+#     print(list2)
+
 sentence = "Nancy is 90 years old. she wants 12.084 toffees"
 # extract_num(sentence)
 

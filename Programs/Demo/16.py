@@ -8,9 +8,8 @@ Output:
 O:6
 """
 
-def non_repeating_character(str):
+def non_char(str):
     size = len(str)
-
     dict = {}
 
     for i in range(size):
@@ -20,16 +19,12 @@ def non_repeating_character(str):
         else:
             dict[str[i]] = dict[str[i]] + 1
 
-    # print(dict)
-
 
     for i in range(size):
+
         if dict[str[i]] == 1:
             print(str[i], i)
-            # break
 
 
-str = "NETSETOSNETM"
-non_repeating_character(str)
-
-
+str_r = "NETSETOSNETM"
+non_char(str_r)

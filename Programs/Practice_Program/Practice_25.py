@@ -11,26 +11,18 @@ s
 def dup():
     str = input()
 
-    list1 = []
-
-    for i in str:
-        list1.append(i)
-    # print(list1)
-
     dict = {}
 
-    for i in list1:
+    for i in str:
         if i not in dict:
             dict[i] = 1
+
         else:
-            dict[i] = dict[i]+1
+            dict[i] = dict[i] + 1
 
-    for i in set(list1):
-
+    for i in set(str):
         if dict[i] > 1:
-            print("The Duplicate Character is ", i, dict[i])
-
-    # print(dict)
+            print(i, dict[i], "times")
 
 dup()
 
@@ -59,3 +51,5 @@ dup()
 #             print("The duplicate key is", list[index], dict[list[index]])
 #
 # dup_char()
+
+

@@ -21,5 +21,5 @@ def get_missing_summation(a):
     print(total-sum1)
 
 
-a = [3, 4, 5, 6, 7, 8, 9, 10, 12]
+a = [1,2,3, 4, 5, 6, 7, 8, 9, 10, 12]
 get_missing_summation(a)

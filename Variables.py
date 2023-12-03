@@ -33,7 +33,7 @@ a=50
 b=100
 print(a,b)
 b,a=a,b
-print(a,b)
+print(b,a)
 
 # Delete variable
 a=300

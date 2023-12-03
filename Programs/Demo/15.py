@@ -8,13 +8,12 @@ Output:
 Automation Python to Welcome
 """
 
-def reverse_sentence(str):
+def rev_word(str):
     list1 = str.split()
     rev = list1[::-1]
-    print(rev)
-    print(" ".join(rev))
-
+    print(' '.join(rev))
 
 
 str = "Welcome to Python Automation"
-reverse_sentence(str)
+
+rev_word(str)

@@ -45,7 +45,7 @@ Immutable - numeric, string, tuple
 # q = q+"Hi"
 # print(id(q))
 
-# Ex: Mutable
+# Ex: Mutable # List
 a = [100, 300]
 # b is a reference variable of a
 b = a
@@ -54,7 +54,7 @@ b[1] = 200
 print(b)
 print(a)
 
-# Ex: Immutable
+# Ex: Immutable # Tuple
 a = (10, 20)
 # b is a copy variable of a
 b = a

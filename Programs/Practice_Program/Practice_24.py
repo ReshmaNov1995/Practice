@@ -5,7 +5,7 @@ Input:
 "Malyalam"
 
 Output:
-"Malyalam" is a palindrome
+"Malyalam" is a palindrome"
 """
 
 # def palindrome(str):

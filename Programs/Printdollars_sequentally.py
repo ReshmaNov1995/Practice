@@ -1,7 +1,7 @@
 dol='$'
 n=5
 lst=[]
-for i in range(0,n):
+for i in range(n):
     lst.append(dol)
 
 print(lst)
