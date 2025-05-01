@@ -25,7 +25,7 @@ import re
 num = re.findall("\d*\.?\d+", sentence)
 print(num)
 
-# Decimal Values - Regex concept -> regexr.com
+# Decimal Values - Regex(Regular Expression) concept -> regexr.com
 # d - digit
 # + -> 1 or more
 # * -> 0 or more
