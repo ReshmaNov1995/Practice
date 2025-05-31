@@ -93,7 +93,7 @@ print("first number".isidentifier())  # A string is considered a valid identifie
 
 print(s.islower()) # check for lowercase
 print("WELCOME".isupper()) # check for uppercase
-print(" ".isspace()) # check for space
+print(" ".isspace()) # check for empty space
 
 # Example 10: Searching for SubStrings
 
