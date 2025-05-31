@@ -108,8 +108,8 @@ print(m.find("ised"))
 
 n = "am an AGARAM Employee. my employee id is ate188. and am a Test Engineer."
 
-print(n.capitalize()) # returns capital letter of a sentence
-print(n.title()) # returns capital letter of every word
+print(n.capitalize()) # returns capital letter of 1st letter of sentence
+print(n.title()) # returns capital letter of every 1st letter of word
 print(n.lower()) # returns entirely lower
 print(n.upper()) # returns entirely upper
 print(n.swapcase()) # returns upper->lower and viceversa
